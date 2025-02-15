@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom global styles */
+html, body {
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark body {
+  background-color: #1a202c; /* Dark mode background */
+  color: #ffffff;            /* Dark mode text color */
+}
